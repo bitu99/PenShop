@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="flex justify-between md:h-fit">
+        <div class="text-4xl md:text-5xl p-5 md:p-7" id="nav-part1">
+            Pen<span class="text-purple-600">Shop</span>
+        </div>
+        <div class="hidden md:flex justify-between w-1/2 h-20 p-4 text-3xl items-center" id="nav-part2">
+            <div>Shop by brand</div>
+            <div>Craft Material</div>
+            <div>Office stuff</div>
+            <div>&#x1f6d2</div>
+        </div>
+        <div class="text-4xl p-5 md:hidden">&#9776</div>
+    </nav>
+
+    <section class="w-full h-screen flex flex-col-reverse md:flex-row justify-start pt-24 md:pt-px" id="section1">
+        <div class="w-full md:w-1/2 h-full  md:flex justify-center md:flex-col p-6 md:pl-36" id="box1">
+            <h1 class="text-4xl md:text-6xl">One stop solution for all your stationary material needs.</h1>
+            <div>
+                <p class="hidden md:block text-xl mt-4">We sell the best quality stationary products suited according to your needs and that too at the best price you can find anywhere, To know more browse through our products.</p>
+            </div>
+            <button class="bg-purple-600 text-white text-lg p-3 px-4 mt-4 md:text-3xl md:p-4 md:px-7 rounded-lg w-fit">Browse products</button>
+        </div>
+        <div class="flex justify-center items-center md:w-1/2 md:pr-8" id="box2">
+            <div id="box2-box1">
+                <img class="h-1/6 w-1/2 md:h-2/3 object-cover shadow-2xl rounded-xl ml-24 md:ml-40 md:mb-16" src="pencil-case-cover-purple.webp" alt="">
+                <img class="h-1/6 w-1/2 md:h-2/3 object-cover shadow-2xl rounded-xl" src="scissor-img.jpeg" alt="">
+            </div>
+            <div id="box2-box2">
+                <img class="h-1/5 md:h-1/5 object-cover shadow-2xl rounded-xl md:mr-32" src="notebook.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
